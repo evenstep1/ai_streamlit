@@ -15,7 +15,7 @@ st.sidebar.write("선택한 작품은:",user_opt)
 
 #메인 화면
 st.title("스트림릿의 사이드바")
-folder = r'D:/AI_S/data/'
+folder = r'D:/AI_S/'
 image_files=['Vermeer.png', 'Gogh.png', 'Munch.png', 'ShinYoonbok.png']
 
 sel_img_index = sel_opt.index(user_opt)
